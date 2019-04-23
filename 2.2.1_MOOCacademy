@@ -1,0 +1,62 @@
+### 2.2.1 MOOCacademy
+COURS
+- id
+- titre
+- description
+
+LEÇON
+- id
+- titre
+- body
+- cours_id
+
+------------------------------------------------
+### 2.2.2 The Hacking Pinterest
+USERS
+- id
+- name
+
+PINS
+- id
+- url
+- user_id
+- comments_id
+
+COMMENTS
+- id
+- content
+
+------------------------------------------------
+### 2.2.3. The Hacking News
+USERS
+- id
+- name
+
+LINKS
+- id
+- url
+- users_id
+- comment1_id
+
+COMMENT 1
+- id
+- content
+- users_id
+- links_id
+
+COMMENT 2
+- id
+- content
+- user_id
+- comment_1_id
+
+------------------------------------------------
+### 2.2.4. The Hacking Class
+STUDENT
+- id
+- name
+- class_id
+
+CLASS
+- id
+- content
